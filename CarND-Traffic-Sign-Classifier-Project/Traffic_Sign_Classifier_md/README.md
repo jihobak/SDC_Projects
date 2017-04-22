@@ -1082,15 +1082,8 @@ with tf.Session() as sess:
 ## Step 3: Test a Model on New Images
 
 
+![png](GoogleStreetMap.png)
 
-<figure>
- <img src="GoogleStreetMap.png" width="800" alt="Combined Image" />
- <figcaption>
- <p></p> 
- <p style="text-align: center;"> New Test images is captured from Google Street Map</p> 
- </figcaption>
-</figure>
- <p></p> 
 
 ### Load and Output the Images
 
