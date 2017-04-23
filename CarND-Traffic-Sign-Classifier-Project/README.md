@@ -56,17 +56,15 @@ ___
 ![Model Architecture][Model]
 
 
-> - I used 'leaky relu' as activation function rather than 'ELU' because I think it is important to consider fast model at runtime. So I didn't use 'batch-normalization' which is one of useful skills for training deep learning model.
+- I used 'leaky relu' as activation function rather than 'ELU' because I think it is important to consider fast model at runtime. So I didn't use 'batch-normalization' which is one of useful skills for training deep learning model.
 
+- I apply regulariation 'drop out' skills to both convolution layer and fully-connected layer for avoiding overfitting.
 
-> - I apply regulariation 'drop out' skills to both convolution layer and fully-connected layer for avoiding overfitting.
+- I concatenates tensors from previous layers before connecting to fully-connected layer to get more data representation. Before concatenating tensors, I also apply pooling to prevent model from using too much weights
 
+- Validation Accuracy = 0.995, I believe this model works!
 
-> - I concatenates tensors from previous layers before connecting to fully-connected layer to get more data representation. Before concatenating tensors, I also apply pooling to prevent model from using too much weights
-
-> - Validation Accuracy = 0.995, I believe this model works!
-
-> - Test Accuracy = 0.969
+- Test Accuracy = 0.969
  
 ---
 
