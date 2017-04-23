@@ -64,6 +64,8 @@ ___
 
 > - I concatenates tensors from previous layers before connecting to fully-connected layer to get more data representation. Before concatenating tensors, I also apply pooling to prevent model from using too much weights
 
+> - Validation Accuracy = 0.995, I believe this model works!
+
 > - Test Accuracy = 0.969
  
 ---
@@ -76,74 +78,76 @@ ___
 ![png](./Traffic_Sign_Classifier_md/output_44_0.png)
 
 
-    Top prediction 0.9987
+    Correct!, Top prediction 0.9987
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_2.png)
 
 
-    Top prediction 0.9935
+    Correct!, Top prediction 0.9935
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_4.png)
 
 
-    Top prediction 0.9999
+    Correct!, Top prediction 0.9999
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_6.png)
 
 
-    Top prediction 0.8149
+    Correct!, Top prediction 0.8149
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_8.png)
 
 
-    Top prediction 0.9997
+    Correct!, Top prediction 0.9997
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_10.png)
 
 
-    Top prediction 0.9874
+    Correct!, Top prediction 0.9874
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_12.png)
 
 
-    Top prediction 1.0
+    Correct!, Top prediction 1.0
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_14.png)
 
 
-    Top prediction 0.9957
+    Correct!, Top prediction 0.9957
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_16.png)
 
 
-    Top prediction 0.9986
+    Correct!, Top prediction 0.9986
 
 
 
 ![png](./Traffic_Sign_Classifier_md/output_44_18.png)
 
 
-    Top prediction 1.0
+    Correct!, Top prediction 1.0
     
 
 ---
 
- Accuracy on 10 captured images are 100%. Although I randomly cropped traffic signs from google street view, I think new test image is not enough to real test the performance. My model is trained on imbalanced data. It will make wrong predictions where classes we don't have enough data to train as result.
+
+ 
+ **Accuracy on 10 captured images are 100%**. Although I randomly cropped traffic signs from google street view, I think new test image is not enough to real test the performance. My model is trained on imbalanced data. It will make wrong predictions where classes we don't have enough data to train as result.
 
  I think it is enough to get great performance as this time.  However, I believe model make a progress with augmented data(projection, flip, projection..) and balancing data.
